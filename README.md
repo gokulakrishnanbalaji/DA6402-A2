@@ -23,7 +23,10 @@ The dataset is split into:
 - **Part A.ipynb**: Implements a 5-layer CNN trained from scratch with hyperparameter tuning using Weights & Biases (W&B) sweeps.
 - **Part B.ipynb**: Fine-tunes a pre-trained ResNet50 model by unfreezing the last two blocks and the fully connected layer.
 - I didn't use any **.py** files as I did my entire work in kaggle notebooks.
-
+- I migrated the code from the ipynb format to the .py format for automated execution, following a modular approach, there are two folders named **Part A** and **Part B** that contain the Python code. I also copied and pasted the respective ipynb notebooks into these folders.  
+- Additionally, I have written a **run.sh** file to automatically execute the Python files, starting with Part A followed by Part B.  
+- **Disclaimer:** I am unable to test the Python files for the assignment as I lack the GPU resources to run the .py files. However, the .ipynb files have been thoroughly tested and will run successfully. Therefore, is **recommended to run the .ipynb files instead of the .sh file**.
+  
 ## Part A: Training a CNN from Scratch
 
 ### Objective
